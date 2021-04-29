@@ -1,0 +1,403 @@
+#comment1{
+    border: 1px unset gainsboro;
+    border-left: 4px solid  #ed6424d7;;
+    margin-top: 57px;
+    background-color: #F7F8FC;
+    padding: 0.99rem;
+    padding-bottom:  0.25rem;
+    font-size: 0.85rem;
+    font-style: italic;
+    font-family: roboto;
+   }
+   
+   .profile-1{
+       width: 65px;
+       height: 65px;
+       margin-top: 20px;
+       float: left;
+   }
+   
+   .dot {
+       height: 8px;
+       width: 8px;
+       background-color: rgba(44, 43, 43, 0.829);
+       border-radius: 50%;
+       display: inline-block;
+     }
+   
+     .-dot2{
+       background-color: rgba(44, 43, 43, 0.384);
+     }
+   
+     .-dot3{
+       background-color: rgba(44, 43, 43, 0.384);
+     }
+   
+   #move11{
+       margin-left: 278px;
+   }
+   
+   .non-bullet{
+       list-style-type: none;
+       
+   }
+   .-move{
+       padding-top: 1.99rem;
+       padding-left: 0.98rem;
+       margin-left: 3.489rem;
+       font-size: 0.72rem;
+       font-family: Quicksand;
+       color: #838396;
+       
+   
+   }
+   .-move2{
+       margin-left: 208px;
+       margin-top: 29px;
+       width: 100%;
+       height: 100%;
+       padding-bottom: 0px;
+   }
+   #maincaja{
+       display: grid;
+       grid-template-columns: 350px 350px 340px;
+       grid-template-rows: auto auto;
+       align-content: center;
+       text-align:center;
+       padding-top: 23px;
+       justify-content: center;
+       
+   }
+   
+   
+       #head1
+       {
+           font-size: 6vw;
+       }
+   
+   
+   
+   
+   .caja{
+       text-overflow: auto;
+       padding: 20px;
+       width: 100%;
+   
+       
+   }
+   .icones{
+       width: 40px;
+       height: 40px;
+       padding: 2px;
+       margin-bottom: 10px;
+       
+       
+   }
+   h6{
+       font-size: 0.93rem;
+       font-weight: bold;
+   }
+   .Picones{
+     font-size: 0.81rem;
+     color: #838396;
+     font-family: Quicksand;
+   }
+   
+   @media (max-width:414px) and (max-height:736px) {
+       /* For mobile phones: */
+       #maincaja
+       {
+           display: inline;
+           margin: 0 auto;  
+       }
+   
+        
+       
+   }
+   
+   
+   #head1{
+       font-size: 45px;
+       font-weight: bold;
+       text-align: center;
+       display: block;
+   }
+   
+   
+   
+   #devbookdevices{
+       width: 33%;
+       height: 33%;
+       
+   }
+   
+   
+   
+    #listamove{
+   margin-left: 28px;
+   margin-top: -25px;
+   } 
+   
+   .-move3{
+       font-size: 0.95rem;
+       line-height: 35px;
+       height: 634px;
+       padding-top: 25px;
+       margin-bottom: -18rem;
+   }
+   
+   .move6{
+       color: white;
+       width:150px;
+       margin-left: 54px;
+       background-color: #ed6524;
+       font-weight: 600;
+       padding: 0.875rem 2.5rem;
+       transition: all 0.4s ease-in-out;
+       border-radius: 2rem;
+       border: none;
+       box-sizing: border-box;
+       padding-right: 1.6rem;
+       padding-left: 1.6rem;
+   }
+   
+   
+   
+   
+   #move5{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        
+   }
+   
+   #content-section{
+       margin-top: -28px; padding-bottom: 26px; 
+   }
+   
+   
+   @media  (max-width:414px) and (max-height:736px) {
+       /* For mobile phones: */
+       #move5
+       {
+           flex-direction: column;
+            justify-content: center;
+       }
+       #devbookdevices{
+           width: 80%;
+           margin: 0 auto;
+       }
+   }
+   
+   @media (max-width:414px) and (max-height:736px) {
+       /* For mobile phones: */
+       
+       .-move3{
+           font-size: 4vw;
+           line-height: 31px;
+   
+       }
+       
+       #listamove
+       { 
+           margin: 0 auto;
+       }
+       .move6{
+           font-size: 4vw;
+       }
+   }
+   
+   
+   
+   
+   
+   
+   #maincaja2{
+   
+       background-color: #F7F8FC;
+       border: none;
+       width: 629px ;
+       height: 206px ;
+       margin-left: 250px;
+       margin-bottom: 30px;
+       text-align: center;
+       padding-top: 26px;
+       line-height: 8px;
+   }
+   
+   @media (max-width:414px) and (max-height:736px) {
+       /* For mobile phones: */
+       #maincaja2
+       {
+           
+           width: 350px;
+           height: 200px;
+           margin: 0 auto;
+           
+       }
+   }
+   
+   
+   
+   #gettext{
+   font-weight: bold;
+   font-size: 35px ;
+   padding-bottom: 2px;
+   }
+   
+   .gettext2{
+   font-size: 15px;
+   
+   }
+   
+   @media (max-width:414px) and (max-height:736px) {
+       /* For mobile phones: */
+       #gettext
+       
+       {
+           font-size: 5vw;  
+       }
+       .gettext2{
+           font-size: 3vw;
+           line-height: 3px;
+       }
+   }
+   
+   
+   
+   input{
+       border: none;
+       background-color: white;
+       padding: 12px;
+       width: 365px;
+       margin-top: 20px;
+   }
+   
+   
+   
+   #send{
+      background-color: orangered;
+      padding: 18px; 
+      color: white;
+      border: none;
+      border-radius: 5px;
+   }
+   
+   @media only screen and (max-width:414px) {
+       /* For mobile phones: */
+      input
+       {
+          width: 250px;
+          font-size: 3vw; 
+       }
+       #send{
+           font-size: 3vw;  
+       }
+   }
+   
+   /* book reviews caja (BRC) */
+   #BRC {
+   display: grid;
+   grid-template-columns: 250px 250px 250px;
+   grid-template-rows: 180px 150px;
+   text-align: center;
+   grid-gap: 30px;
+   padding-bottom: 41px;
+   justify-content: center;
+   
+   }
+   
+   .BRC1{
+       /* border: 1px solid black; */
+       background-color: #F7F8FC;
+       font-size: 0.72rem;
+       font-family: Quicksand;
+       color: #838396;
+       font-style: italic;
+       text-align: left;
+       padding: 6px;
+       width: 256px;
+       height: 190px;
+       margin-top: -30px;
+       padding-top: 0px;
+   
+   
+   }
+   
+   @media only screen and (max-width:414px) {
+       /* For mobile phones: */
+      #BRC
+      
+       {
+      display: inline;
+      justify-content: center;
+      
+   
+       }
+      
+   }
+   
+   .-BRC4move { 
+       margin-left: 145px
+       }
+       
+   .-BRC5move{
+           margin-left: 150px  
+       }
+   
+   
+   @media only screen and (max-width:414px) {
+       /* For mobile phones: */
+      .BRC1
+      
+       {
+           
+           justify-content: center;
+           margin: 0 auto;
+           margin-bottom: 5%;
+           
+       }
+      
+   }
+   
+   
+   
+   
+   .-quote{
+       color:white; 
+       background-color: rgba(236, 101, 36, 0.72); 
+       padding: 5px;
+       padding-left: 7px;
+       width: 28px;
+       height: 28px;
+       font-size: 0.83rem;
+       border-radius: 50%;
+       margin-left: 100px;
+   }
+   
+   
+   
+   .BRCimg{
+   
+       width: 50px;
+       height: 50px;
+       float: left;
+       
+   }
+   
+   .-move7{
+       margin-left: 16px;
+       padding-top: 7px;
+   }
+   
+   .-imovelast
+   {
+       margin-top: -13px;
+   }
+   
+   
+   
+   
+   
+   
+   
